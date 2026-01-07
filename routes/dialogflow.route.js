@@ -27,7 +27,7 @@ router.post("/webhook", async (req, res) => {
     const link = `https://goalless-unoceanic-clarissa.ngrok-free.dev/novel/${novel._id}`;
 
     agent.add(
-      `Có nhé 📚  
+      `Có nhé  
       Truyện **${novel.title}** (${novel.genre}) của ${novel.authorName}:  
       ${link}`
     );
